@@ -68,7 +68,7 @@ function renderItems() {
     const listItem = document.createElement("li");
     listItem.className = "list-group-item";
     listItem.innerHTML = `
-  <span>${item.text}</span>
+  <li>${item.text}</li>
   <button class="delete-btn"><i class="fa-regular fa-trash-can"></i></button>
   
 `;
