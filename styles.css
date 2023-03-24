@@ -22,6 +22,10 @@
         font-size: 1.5rem;
       }
 
+      li{
+        list-style: none;
+      }
+
       .delete-btn {
         border: none;
       }
