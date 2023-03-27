@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Nepo Aquino" />
-    <meta property="og:url" content="https://neppy3250.github.io/indemandJS_Final_Project/"/>
+    <meta property="og:url" content="https://neppy3250.github.io/indemandJS_Final_Project/" />
     <meta property="og:type" content="website" />
     <title>To-Do List</title>
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
@@ -19,14 +19,16 @@
 <body>
     <!-- Landing Page -->
     <div class="container landing-page">
-        <h1 class="text-center mb-5">Welcome to your To-Do List</h1>
+        <h1 class="text-center mb-5">Welcome to your To-Do List <span><img src="img/todo.png"
+                    id="todoLogo"></img></span></h1>
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="nameInput">What's your name?</label>
+                    <label for="nameInput" class="mb-3">What is your name?</label>
                     <input type="text" class="form-control" id="nameInput" />
                 </div>
-                <button type="button" class="btn btn-primary btn-block container-fluid mt-3" onclick="proceedToMainPage()">
+                <button type="button" class="btn btn-primary btn-block container-fluid mt-3"
+                    onclick="proceedToMainPage()">
                     Proceed
                 </button>
             </div>
