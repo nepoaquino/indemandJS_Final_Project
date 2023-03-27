@@ -35,10 +35,6 @@ document.addEventListener("keypress", (event) => {
   }
 });
 
-// Add an event listener to the proceed button
-const proceedButton = document.getElementById("proceedButton");
-proceedButton.addEventListener("click", proceedToMainPage);
-
 // Function to add an item to the list
 function addItem() {
   const itemText = todoInput.value.trim();
@@ -87,5 +83,4 @@ function exitToLandingPage() {
   items.length = 0;
   todoList.innerHTML = "";
   todoInput.value = "";
- 
 }
